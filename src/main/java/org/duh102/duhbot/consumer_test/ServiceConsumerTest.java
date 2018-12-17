@@ -1,6 +1,5 @@
-package org.duh102.duhbot.consumer_example;
+package org.duh102.duhbot.consumer_test;
 
-import org.duh102.duhbot.functions.ListeningPlugin;
 import org.duh102.duhbot.functions.ServiceConsumerPlugin;
 import org.duh102.duhbot.functions.ServiceMediator;
 import org.duh102.duhbot.functions.ServiceResponse;
@@ -13,7 +12,7 @@ public class ServiceConsumerTest implements ServiceConsumerPlugin {
     ServiceMediator mediator = null;
 
     @Override
-    public void setInteraactionMediator(ServiceMediator serviceMediator) {
+    public void setInteractionMediator(ServiceMediator serviceMediator) {
         this.mediator = serviceMediator;
     }
 
